@@ -1,5 +1,5 @@
 from django.db import models
-
+import datetime as dt
 # Create your models here.
 
 class Category(models.Model):
@@ -20,4 +20,7 @@ class Image(models.Model):
     location = models.ForeignKey(Location)
 
 
-
+    @classmethod
+    def get_image(cls):
+        image = cls.objects.get('image_name')
+        return image

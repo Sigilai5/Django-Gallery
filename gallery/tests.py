@@ -1,3 +1,8 @@
 from django.test import TestCase
-
-# Create your tests here.
+# from . models import Image,Location,Category
+#
+# # Create your tests here.
+# class ImageTestClass(TestCase):
+#
+#     def SetUp(self):
+#         self.mario = Image()
