@@ -42,6 +42,10 @@ class Image(models.Model):
     def save_image(self):
         self.save()
 
+    @classmethod
+    def search_by_title(cls,search_term):
+        image = cls.objects.filter(image_name=search_term)
+        return image
     # @classmethod
     # def get_image(cls):
     #     image = cls.objects.filter(category__image_category__contains='SpaceX')
