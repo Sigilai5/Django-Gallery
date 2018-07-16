@@ -1,7 +1,21 @@
 from django.shortcuts import render
-from  .models import Image
+from  .models import *
 
 # Create your views here.
 def home(request):
-    image = Image.get_image()
-    return render(request,'base.html.html',{"image":image})
+    image = Image.objects.all()
+
+    return render(request,'home.html',locals())
+'''
+
+    locals() --> generates a dictionary containing all 
+
+    		variables in the current scope
+
+
+
+    # further explore
+
+    globals()
+
+    '''

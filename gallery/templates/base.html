@@ -13,15 +13,38 @@
 
 </head>
 <body>
+
 {% include "navbar.html" %}
-<h1>Gallery</h1>
+ <div class="dropdown">
+  <button class="dropbtn">Categories</button>
+  <div class="dropdown-content">
+    <a href="#">SpaceX</a>
+    <a href="#">Blue Origin</a>
+    <a href="#">Virgin Atlantic</a>
+  </div>
+
+
+    <div class="dropdown">
+  <button class="dropbtn">Countries</button>
+  <div class="dropdown-content">
+    <a href="#">USA</a>
+    <a href="#">Canada</a>
+    <a href="#">Britain</a>
+  </div>
+    </div>
+</div>
+
+{% block content %}
+
+{% endblock %}
 
 {% block scripts %}
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      {% bootstrap_javascript %}
     {% endblock %}
 
-<h2>{{ image.image_name }}</h2>
+<h2></h2>
+
 
 
 </body>
