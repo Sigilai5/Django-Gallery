@@ -38,6 +38,7 @@ class Image(models.Model):
 
     class Meta:
         ordering = ['image_name']
+        #find out
 
     def save_image(self):
         self.save()
@@ -56,6 +57,7 @@ class Image(models.Model):
     def filter_category(cls,category):
         images = cls.objects.filter(category__image_category__istartswith=category)
         return images
+
 
     # @classmethod
     # def get_image(cls):
