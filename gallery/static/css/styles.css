@@ -3,7 +3,7 @@ h1{
 }
 
 
-/**New **/
+/**Category Dropdown**/
 
 .dropbtn {
     background-color: orangered;
@@ -13,6 +13,15 @@ h1{
     border: none;
 
 }
+
+#dropbtn{
+    background-color: orangered;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
 
 .dropdown {
     position: relative;
@@ -36,7 +45,7 @@ h1{
     display: block;
 }
 
-. a:hover {background-color: #ddd;}
+.dropbtn :hover {background-color: #ddd;}
 
 
 .dropdown:hover .dropdown-content {display: block;}
