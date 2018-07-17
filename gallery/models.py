@@ -49,7 +49,8 @@ class Image(models.Model):
 
     @classmethod
     def filter_location(cls,location):
-        images = cls.objects.filter(location=location)
+        # location = Location.objects.(image_location=location)
+        images = cls.objects.filter(location__image_location__istartswith=location)
         return images
 
     # @classmethod

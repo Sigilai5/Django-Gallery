@@ -11,11 +11,13 @@ h1{
     padding: 16px;
     font-size: 16px;
     border: none;
+
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
+    margin-left: 26px;
 }
 
 .dropdown-content {
@@ -34,7 +36,8 @@ h1{
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+. a:hover {background-color: #ddd;}
+
 
 .dropdown:hover .dropdown-content {display: block;}
 

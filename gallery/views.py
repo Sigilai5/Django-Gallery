@@ -35,3 +35,5 @@ def search_results(request):
 def get_location(request,location):
     image = Image.filter_location(location)
     return render(request,'location.html',locals())
+
+
