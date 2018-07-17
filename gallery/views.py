@@ -36,4 +36,6 @@ def get_location(request,location):
     image = Image.filter_location(location)
     return render(request,'location.html',locals())
 
-
+def get_category(request,category):
+    image = Image.filter_category(category)
+    return render(request,'category.html',locals())

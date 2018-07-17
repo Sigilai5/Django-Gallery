@@ -1,0 +1,32 @@
+{%extends 'base.html'%}
+{% load bootstrap3 %}
+{% block content %}
+{{block.super}}
+
+
+
+
+
+    <section class="gallery-block cards-gallery">
+    <div class="container">
+
+    <div class="row">
+ {% for img in image %}
+     <h2>{{ img.category }}</h2>
+    <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                	<a class="lightbox" href="">
+	                		<img src="{{ img.image.url }}" alt="Card Image" class="card-img-top" width="100%" height="300px">
+	                	</a>
+	                    <div class="card-body">
+	                        <h6><a href="#">{{ img.image_name }}</a></h6>
+	                        <p class="text-muted card-text">{{ img.image_description }}</p>
+	                    </div>
+	                </div>
+	            </div>
+        {% endfor %}
+    </div>
+    </div>
+    </section>
+
+{% endblock %}

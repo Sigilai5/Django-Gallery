@@ -52,6 +52,10 @@ class Image(models.Model):
         # location = Location.objects.(image_location=location)
         images = cls.objects.filter(location__image_location__istartswith=location)
         return images
+    @classmethod
+    def filter_category(cls,category):
+        images = cls.objects.filter(category__image_category__istartswith=category)
+        return images
 
     # @classmethod
     # def get_image(cls):
