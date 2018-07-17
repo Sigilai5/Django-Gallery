@@ -1,10 +1,10 @@
 # [Gallery]()
-#### This is my Gallery
+#### This is my Gallery made with :heartpulse:
 #### July 15th, 2018
 #### By **[Brian Sigilai](https://github.com/sigilai5)**
 
 ## Description
-This is a simple photo site where people can view diferent types of images.
+This is a simple photo site where people can view diferent types of images according to category and location..
 
 ## Set Up and Installations
 
@@ -35,7 +35,7 @@ CREATE DATABASE gallery;
 ```
 ### Run initial Migration
 ```bash
-python3.6 manage.py makemigrations gram
+python3.6 manage.py makemigrations gallery
 python3.6 manage.py migrate
 ```
 
