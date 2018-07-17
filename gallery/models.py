@@ -46,6 +46,12 @@ class Image(models.Model):
     def search_by_title(cls,search_term):
         image = cls.objects.filter(image_name__icontains=search_term)
         return image
+
+    @classmethod
+    def filter_location(cls,location):
+        images = cls.objects.filter(location=location)
+        return images
+
     # @classmethod
     # def get_image(cls):
     #     image = cls.objects.filter(category__image_category__contains='SpaceX')

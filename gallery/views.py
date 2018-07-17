@@ -31,3 +31,7 @@ def search_results(request):
     else:
         message = "You haven't searched for any term"
         return render(request, 'search.html',{"message":message})
+
+def get_location(request,location):
+    image = Image.filter_location(location)
+    return render(request,'location.html',locals())

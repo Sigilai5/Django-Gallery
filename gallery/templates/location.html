@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Location</title>
+</head>
+<body>
+{% block content %}
+    {% for img in image %}
+    {{ img.image_name }}
+    {% endfor %}
+{% endblock %}
+</body>
+</html>
