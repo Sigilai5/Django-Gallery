@@ -1,5 +1,5 @@
 # [Gallery]()
-#### This is my Gallery made with :heartpulse:
+#### This is my Gallery made with :heartpulse: in :kenya:
 #### July 15th, 2018
 #### By **[Brian Sigilai](https://github.com/sigilai5)**
 
