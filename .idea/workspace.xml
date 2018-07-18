@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f787561-0b47-459e-b65d-9777bed1968d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery.wsgi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gallery/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gallery/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="6f787561-0b47-459e-b65d-9777bed1968d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,18 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gallery/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gallery/views.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,9 +44,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gallery.wsgi" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gallery.wsgi" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gallery.wsgi">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
@@ -77,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runtime.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="runtime.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runtime.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -157,6 +142,7 @@
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/Gallery/settings.py" />
         <option value="$PROJECT_DIR$/runtime.txt" />
+        <option value="$PROJECT_DIR$/gallery.wsgi" />
       </list>
     </option>
   </component>
@@ -256,7 +242,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="89" y="-6" width="1831" height="1086" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -264,7 +249,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="7" weight="0.39569893" />
+      <window_info active="true" anchor="bottom" auto_hide="true" id="Terminal" order="7" visible="true" weight="0.48817205" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2233752" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -288,16 +273,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gallery/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="e#631#663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gallery/templates/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -646,16 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gallery.wsgi">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gallery/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -674,6 +639,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gall.wsgi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery.wsgi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
