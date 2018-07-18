@@ -1,10 +1,8 @@
 {%extends 'base.html'%}
 {% load bootstrap3 %}
+{% load static %}
 {% block content %}
 {{block.super}}
-
-    <h2>Read</h2>
-
 
 
     <section class="gallery-block cards-gallery">
@@ -12,20 +10,57 @@
 
     <div class="row">
  {% for img in image %}
+
+     <!-- Modal -->
+<div class="modal fade" id="{{ img.id }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title" id="exampleModalCenterTitle">{{ img.image_name }}</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="{{ img.image.url }}" alt="Card Image" class="card-img-top" width="100%" height="300px">
+
+          <h6>{{ img.image_description }}</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Copy Link</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
     <div class="col-md-6 col-lg-4">
-	                <div class="card border-0 transform-on-hover">
-	                	<a class="lightbox" href="">
-	                		<img src="{{ img.image.url }}" alt="Card Image" class="card-img-top" width="100%" height="300px">
-	                	</a>
-	                    <div class="card-body">
-	                        <h6><a href="#">{{ img.image_name }}</a></h6>
-	                        <p class="text-muted card-text">{{ img.image_description }}</p>
-	                    </div>
+	                <div class="card border-0 transform-on-hover" >
+	                	<a class="lightbox" data-target="#exampleModalCenter">
+	                		<img src="{{ img.image.url }}" alt="Card Image" class="card-img-top" width="100%" height="300px" data-toggle="modal" data-target="#{{ img.id }}">
+
+
+
+                        </a>
+
 	                </div>
 	            </div>
+
+     <!-- Button trigger modal -->
+
+
+
+
+
         {% endfor %}
     </div>
     </div>
     </section>
 
+
+
+{% endblock %}
+{% block scripts %} {{block.super}}
+  <script type="text/javascript" src="{%static 'js/scripts.js'%}"></script>
 {% endblock %}
