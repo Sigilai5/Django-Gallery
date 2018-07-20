@@ -33,6 +33,12 @@ class Location(models.Model):
     def delete_location(self):
         self.delete()
 
+    @classmethod
+    def update_location(cls,location,update):
+        update = cls.objects.filter(image_location=location).update(image_location=update)
+        return update
+
+
     def __str__(self):
         return self.image_location
 
