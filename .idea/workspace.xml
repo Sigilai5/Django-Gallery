@@ -52,8 +52,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gallery/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1144">
-              <caret line="64" column="5" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
+            <state relative-caret-position="354">
+              <caret line="30" column="42" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="30" selection-end-column="42" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -64,8 +64,8 @@
       <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gallery/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            <state relative-caret-position="575">
+              <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -218,7 +218,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;termi&#9;ACTION&#9;ActivateTerminalToolWindow&#10;Gallery.&#9;FILE&#9;file:///home/sigilai/PycharmProjects/Gallery/gallery.wsgi&#10;te&#9;ACTION&#9;ActivateTerminalToolWindow&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;Regex&#9;null&#9;null&#10;terminal&#9;ACTION&#9;ActivateTerminalToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="te&#9;ACTION&#9;ActivateTerminalToolWindow&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;termi&#9;ACTION&#9;ActivateTerminalToolWindow&#10;Gallery.&#9;FILE&#9;file:///home/sigilai/PycharmProjects/Gallery/gallery.wsgi&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;Regex&#9;null&#9;null&#10;terminal&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -284,7 +284,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
-      <window_info anchor="bottom" auto_hide="true" x="129" y="41" width="1831" height="1047" id="Terminal" order="7" type="FLOATING" weight="0.60645163" />
+      <window_info anchor="bottom" auto_hide="true" x="199" y="120" width="1831" height="969" id="Terminal" order="7" type="FLOATING" weight="0.60645163" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2233752" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -665,8 +665,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gallery/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
+        <state relative-caret-position="354">
+          <caret line="30" column="42" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="30" selection-end-column="42" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -675,8 +675,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gallery/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        <state relative-caret-position="575">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>

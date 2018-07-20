@@ -31,19 +31,18 @@ class CategoryTestClass(TestCase):
         self.assertTrue(len(space)>0)
 
 
-class CategoryTestClass(TestCase):
+class ImageTestClass(TestCase):
 
     def setUp(self):
-        self.space = Category(image_category='SpaceX')
-
+        self.image = Image(image_name='Elon',image_description='Love',image_date='2018-07-04',image='love.jpg',category='SpaceX',location='Canada')
 
     def test_instance(self):
-        self.assertTrue(isinstance(self.space,Category))
+        self.assertTrue(isinstance(self.image,Image))
 
     def test_save_method(self):
-        self.space.save_category()
-        space = Category.objects.all()
-        self.assertTrue(len(space)>0)
+        self.image.save_image()
+        image = Image.objects.all()
+        self.assertTrue(len(image)>0)
 
 
 
