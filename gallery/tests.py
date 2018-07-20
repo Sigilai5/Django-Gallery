@@ -23,7 +23,11 @@ class LocationTestClass(TestCase):
         loc = Location.objects.all()
         self.assertTrue(len(loc)<1)
 
-
+    def test_update_method(self):
+        self.test_location = Location(image_location='Canada')
+        self.test_location.save_location()
+        update = Location.update_location('Canada','USA')
+        self.assertTrue(update,'USA')
 
 
 class CategoryTestClass(TestCase):
