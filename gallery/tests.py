@@ -17,9 +17,11 @@ class LocationTestClass(TestCase):
         self.assertTrue(len(loc)>0)
 
     def test_delete_method(self):
-        self.can.delete_location()
+        self.test_location = Location(image_location='Canada')
+        self.test_location.save_location()
+        self.test_location.delete_location()
         loc = Location.objects.all()
-        self.assertTrue(len(loc)<0)
+        self.assertTrue(len(loc)<1)
 
 class CategoryTestClass(TestCase):
 
@@ -34,6 +36,13 @@ class CategoryTestClass(TestCase):
         self.space.save_category()
         space = Category.objects.all()
         self.assertTrue(len(space)>0)
+
+    def test_delete_method(self):
+        self.test_category = Category(image_category='SpaceX')
+        self.test_category.save_category()
+        self.test_category.delete_category()
+        cat = Category.objects.all()
+        self.assertTrue(len(cat)<1)
 
 
 # class ImageTestClass(TestCase):
