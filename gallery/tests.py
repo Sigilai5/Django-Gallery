@@ -16,6 +16,11 @@ class LocationTestClass(TestCase):
         loc = Location.objects.all()
         self.assertTrue(len(loc)>0)
 
+    def test_delete_method(self):
+        self.can.delete_location()
+        loc = Location.objects.all()
+        self.assertTrue(len(loc)<0)
+
 class CategoryTestClass(TestCase):
 
     def setUp(self):
