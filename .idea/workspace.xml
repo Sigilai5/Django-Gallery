@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f787561-0b47-459e-b65d-9777bed1968d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gallery/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gallery/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gallery/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gallery/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gallery/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gallery/wsgi.py" afterDir="false" />
-    </list>
+    <list default="true" id="6f787561-0b47-459e-b65d-9777bed1968d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gallery/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="794">
+            <state relative-caret-position="1012">
               <caret line="64" column="5" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -115,7 +110,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gallery/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -179,9 +174,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="595" />
-    <option name="y" value="85" />
+    <option name="y" value="46" />
     <option name="width" value="982" />
-    <option name="height" value="852" />
+    <option name="height" value="891" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -283,8 +278,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" auto_hide="true" x="109" y="1041" width="1831" height="1047" id="Terminal" order="7" type="FLOATING" visible="true" weight="0.60645163" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2233752" />
+      <window_info active="true" anchor="bottom" auto_hide="true" x="268" y="1021" width="1831" height="1047" id="Terminal" order="7" type="FLOATING" visible="true" weight="0.60645163" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2233752" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -611,16 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallery/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gallery/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -676,6 +661,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
