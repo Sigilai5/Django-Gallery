@@ -13,6 +13,12 @@ class Category(models.Model):
     def delete_category(self):
         self.delete()
 
+    @classmethod
+    def update_category(cls,category,update):
+        update = cls.objects.filter(image_category=category).update(image_category=update)
+        return update
+
+
     def __str__(self):
         return self.image_category
 
