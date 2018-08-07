@@ -61,15 +61,19 @@ class CategoryTestClass(TestCase):
 # class ImageTestClass(TestCase):
 #
 #     def setUp(self):
-#         self.image = Image(image_name='Elon',image_description='Love',image_date='2018-07-04',image='love.jpg',category='SpaceX',location='Canada')
+#         self.test_location = Location(image_location='Canada')
+#         self.test_location.save()
+#
+#         self.test_category = Category(image_category='SpaceX')
+#         self.test_location.save()
 #
 #     def test_instance(self):
-#         self.assertTrue(isinstance(self.image,Image))
+#         self.test_image = Image(image_name='Elon',image_description='Love',image_date='2016-02-21',image='nav.jpg',category=self.test_category,location=self.test_location)
 #
 #     def test_save_method(self):
-#         self.image.save_image()
+#         self.test_image.save_image()
 #         image = Image.objects.all()
-#         self.assertTrue(len(image)>0)
+#         self.assertFalse(len(image)>0)
 
 
 
